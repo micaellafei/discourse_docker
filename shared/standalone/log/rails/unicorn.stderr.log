@@ -1,0 +1,5 @@
+I, [2023-03-07T07:45:36.385484 #583]  INFO -- : master done reopening logs
+I, [2023-03-07T07:45:39.536339 #625]  INFO -- : worker=0 done reopening logs
+I, [2023-03-07T07:45:51.420677 #633]  INFO -- : worker=1 done reopening logs
+I, [2023-03-07T07:45:51.428518 #641]  INFO -- : worker=2 done reopening logs
+I, [2023-03-07T07:45:51.439760 #653]  INFO -- : worker=3 done reopening logs

@@ -1,0 +1,3135 @@
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/actuator/gateway/routes" for 152.89.196.211 at 2023-03-06 08:33:14 +0000
+ActionController::RoutingError (No route matches [GET] "/actuator/gateway/routes")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.6ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+Started GET "/latest?no_definitions=true&page=2" for 66.249.79.216 at 2023-03-06 08:37:09 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"no_definitions"=>"true", "page"=>"2"}
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/crawler (Duration: 15.0ms | Allocations: 13850)
+  Rendered layout layouts/crawler.html.erb (Duration: 18.8ms | Allocations: 15349)
+Completed 200 OK in 76ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 44575)
+start
+done
+start
+done
+Started GET "/" for 192.42.116.216 at 2023-03-06 08:41:55 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 15.3ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 18155)
+Completed 200 OK in 62ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 39784)
+Started GET "/posts.rss" for 192.42.116.216 at 2023-03-06 08:42:04 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 49.8ms | Allocations: 19501)
+Completed 200 OK in 76ms (Views: 51.4ms | ActiveRecord: 0.0ms | Allocations: 29221)
+Started GET "/more/contact" for 192.42.116.216 at 2023-03-06 08:42:07 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.6ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 7.1ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 192.42.116.216 at 2023-03-06 08:42:09 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+Started GET "/remote/fgt_lang?lang=/../../../..//////////dev/" for 45.134.144.119 at 2023-03-06 08:46:45 +0000
+ActionController::RoutingError (No route matches [GET] "/remote/fgt_lang")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.1ms | Allocations: 1841)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+Started GET "/robots.txt" for 144.76.23.197 at 2023-03-06 09:09:57 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/" for 144.76.23.197 at 2023-03-06 09:09:58 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 17.5ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 22.6ms | Allocations: 15194)
+Completed 200 OK in 89ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 43720)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 109.70.100.24 at 2023-03-06 09:40:48 +0000
+Processing by ListController#latest as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/application (Duration: 16.3ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 23399)
+Completed 200 OK in 108ms (Views: 46.4ms | ActiveRecord: 0.0ms | Allocations: 52744)
+Started GET "/posts.rss" for 185.220.102.251 at 2023-03-06 09:40:56 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 34.7ms | Allocations: 19501)
+Completed 200 OK in 62ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 29204)
+Started GET "/more/contact" for 185.220.102.251 at 2023-03-06 09:40:59 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 13.4ms | Allocations: 3638)
+  Rendered layout layouts/no_ember.html.erb (Duration: 20.0ms | Allocations: 5563)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 185.220.102.251 at 2023-03-06 09:41:03 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+Started GET "/" for 192.42.116.182 at 2023-03-06 09:42:34 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 17.5ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 18155)
+Completed 200 OK in 68ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 39784)
+Started GET "/posts.rss" for 23.128.248.211 at 2023-03-06 09:42:41 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 34.5ms | Allocations: 19500)
+Completed 200 OK in 59ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 29203)
+Started GET "/more/contact" for 23.128.248.211 at 2023-03-06 09:42:44 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 23.128.248.211 at 2023-03-06 09:42:46 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+Started GET "/robots.txt" for 66.249.79.216 at 2023-03-06 09:46:23 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/tos" for 66.249.79.214 at 2023-03-06 09:46:24 +0000
+Processing by StaticController#show as HTML
+  Parameters: {"id"=>"tos"}
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.6ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.1ms | Allocations: 1932)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Completed 404 Not Found in 12ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 3691)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 37.139.53.69 at 2023-03-06 10:17:52 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 14.8ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 18155)
+Completed 200 OK in 93ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 49596)
+Started GET "/posts.rss" for 37.139.53.69 at 2023-03-06 10:17:56 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 42.9ms | Allocations: 19500)
+Completed 200 OK in 75ms (Views: 44.0ms | ActiveRecord: 0.0ms | Allocations: 29306)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 115.69.5.65 at 2023-03-06 10:26:43 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 0.9ms | Allocations: 557)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 5029)
+Completed 200 OK in 70ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 29768)
+Started GET "/posts.rss" for 115.69.5.65 at 2023-03-06 10:26:45 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+Started GET "/latest.rss" for 115.69.5.65 at 2023-03-06 10:26:45 +0000
+Processing by ListController#latest_feed as RSS
+  Rendered posts/latest.rss.erb (Duration: 46.5ms | Allocations: 19459)
+Completed 200 OK in 98ms (Views: 47.8ms | ActiveRecord: 0.0ms | Allocations: 32335)
+  Rendered list/list.rss.erb (Duration: 132.8ms | Allocations: 62542)
+Completed 200 OK in 153ms (Views: 133.8ms | ActiveRecord: 0.0ms | Allocations: 69311)
+Started GET "/latest.json?no_definitions=true&page=1" for 115.69.5.65 at 2023-03-06 10:27:13 +0000
+Processing by ListController#latest as JSON
+  Parameters: {"no_definitions"=>"true", "page"=>"1"}
+Completed 200 OK in 35ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21051)
+Started GET "/latest.json?no_definitions=true&page=2" for 115.69.5.65 at 2023-03-06 10:28:02 +0000
+Processing by ListController#latest as JSON
+  Parameters: {"no_definitions"=>"true", "page"=>"2"}
+Completed 200 OK in 36ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21070)
+Started GET "/t/705.json?track_visit=true&forceLoad=true" for 115.69.5.65 at 2023-03-06 10:28:14 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "id"=>"705"}
+Completed 200 OK in 62ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20812)
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 85.208.98.18 at 2023-03-06 10:36:49 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/" for 172.174.9.143 at 2023-03-06 10:37:36 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 16.3ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 18156)
+Completed 200 OK in 82ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 42840)
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 66.249.79.214 at 2023-03-06 10:49:31 +0000
+Started GET "/t/transfer-to-new-facility/685" for 66.249.79.214 at 2023-03-06 10:49:31 +0000
+Processing by RobotsTxtController#index as TEXT
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"transfer-to-new-facility", "topic_id"=>"685"}
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 67)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 674)
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 9.1ms | Allocations: 2814)
+  Rendered layout layouts/crawler.html.erb (Duration: 11.5ms | Allocations: 4151)
+Completed 200 OK in 105ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 36807)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/u/system" for 66.249.79.216 at 2023-03-06 11:05:27 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"username"=>"system"}
+  Rendered users/show.html.erb within layouts/crawler (Duration: 0.6ms | Allocations: 430)
+  Rendered layout layouts/crawler.html.erb (Duration: 4.8ms | Allocations: 1923)
+Completed 200 OK in 55ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 16286)
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 92.119.177.20 at 2023-03-06 11:14:39 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 15.0ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 18155)
+Completed 200 OK in 86ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 42839)
+Started GET "/posts.rss" for 92.119.177.20 at 2023-03-06 11:14:43 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 353.3ms | Allocations: 143028)
+Completed 200 OK in 381ms (Views: 354.6ms | ActiveRecord: 0.0ms | Allocations: 152833)
+Started GET "/more/contact" for 92.119.177.20 at 2023-03-06 11:14:46 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 1.2ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.9ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 92.119.177.20 at 2023-03-06 11:14:47 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/more/contact" for 92.119.177.20 at 2023-03-06 11:14:48 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 92.119.177.20 at 2023-03-06 11:14:49 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/latest?page=2" for 66.249.79.216 at 2023-03-06 11:16:23 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"page"=>"2"}
+  Rendered list/list.erb within layouts/crawler (Duration: 18.9ms | Allocations: 13847)
+  Rendered layout layouts/crawler.html.erb (Duration: 24.1ms | Allocations: 15346)
+Completed 200 OK in 90ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 40101)
+Started GET "/" for 95.220.199.216 at 2023-03-06 11:17:30 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 23.2ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 18155)
+Completed 200 OK in 92ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 42839)
+Started GET "/posts.rss" for 95.220.199.216 at 2023-03-06 11:17:35 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 37.4ms | Allocations: 19494)
+Completed 200 OK in 65ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 29299)
+start
+done
+Started GET "/more/contact" for 95.220.199.216 at 2023-03-06 11:17:36 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.9ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 95.220.199.216 at 2023-03-06 11:17:38 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 144.76.23.197 at 2023-03-06 11:30:19 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/" for 144.76.23.197 at 2023-03-06 11:30:21 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 16.6ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 20.5ms | Allocations: 15193)
+Completed 200 OK in 94ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 46642)
+start
+done
+start
+done
+start
+done
+Started GET "/t/refundable-accom-deposit-and-daily-accom-payment/683" for 66.249.64.250 at 2023-03-06 11:41:25 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"refundable-accom-deposit-and-daily-accom-payment", "topic_id"=>"683"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 8.0ms | Allocations: 2753)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.4ms | Allocations: 4084)
+Completed 200 OK in 85ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 28691)
+start
+done
+start
+done
+Started GET "/robots.txt" for 85.208.98.18 at 2023-03-06 11:46:14 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 67)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 674)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 66.249.64.253 at 2023-03-06 12:25:37 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 67)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 674)
+Started GET "/latest?no_definitions=true&page=3" for 66.249.64.252 at 2023-03-06 12:25:38 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"no_definitions"=>"true", "page"=>"3"}
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/crawler (Duration: 53.7ms | Allocations: 13834)
+  Rendered layout layouts/crawler.html.erb (Duration: 61.4ms | Allocations: 15333)
+Completed 200 OK in 223ms (Views: 65.6ms | ActiveRecord: 0.0ms | Allocations: 47603)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 85.208.98.18 at 2023-03-06 12:38:11 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 67)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 674)
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 85.208.98.18 at 2023-03-06 12:49:10 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 67)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 674)
+start
+done
+Started GET "/" for 192.42.116.197 at 2023-03-06 12:51:40 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 19.9ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 18156)
+Completed 200 OK in 147ms (Views: 32.4ms | ActiveRecord: 0.0ms | Allocations: 42841)
+Started GET "/posts.rss" for 104.244.73.136 at 2023-03-06 12:51:56 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 37.9ms | Allocations: 19498)
+Completed 200 OK in 67ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 29320)
+Started GET "/more/contact" for 104.244.73.136 at 2023-03-06 12:51:59 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.2ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 192.42.116.197 at 2023-03-06 12:52:00 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 1.1ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+Started GET "/" for 92.119.177.20 at 2023-03-06 13:11:45 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 15.9ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 18156)
+Completed 200 OK in 99ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 49653)
+Started GET "/posts.rss" for 92.119.177.20 at 2023-03-06 13:11:49 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 54.6ms | Allocations: 19495)
+Completed 200 OK in 81ms (Views: 55.5ms | ActiveRecord: 0.0ms | Allocations: 29317)
+Started GET "/more/contact" for 92.119.177.20 at 2023-03-06 13:11:51 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.8ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 92.119.177.20 at 2023-03-06 13:11:52 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/more/contact" for 92.119.177.20 at 2023-03-06 13:11:53 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 92.119.177.20 at 2023-03-06 13:11:54 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 218.188.41.122 at 2023-03-06 13:53:40 +0000
+Processing by RobotsTxtController#index as */*
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 68)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 677)
+Started GET "/" for 218.188.41.122 at 2023-03-06 13:53:42 +0000
+Processing by ListController#latest as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/crawler (Duration: 14.3ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 17.6ms | Allocations: 15193)
+Completed 200 OK in 87ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 47449)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+Started GET "/" for 172.70.46.20 at 2023-03-06 14:05:40 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/crawler (Duration: 20.7ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 24.4ms | Allocations: 15194)
+Completed 200 OK in 83ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 39907)
+Started GET "/robots.txt" for 66.249.64.250 at 2023-03-06 14:07:04 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 676)
+Started GET "/latest?page=3" for 66.249.64.253 at 2023-03-06 14:07:04 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"page"=>"3"}
+  Rendered list/list.erb within layouts/crawler (Duration: 18.0ms | Allocations: 13837)
+  Rendered layout layouts/crawler.html.erb (Duration: 21.6ms | Allocations: 15336)
+Completed 200 OK in 79ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 40041)
+Started GET "/search?q={search_term_string}" for 66.249.64.250 at 2023-03-06 14:07:05 +0000
+Processing by SearchController#show as HTML
+  Parameters: {"q"=>"{search_term_string}"}
+  Rendered search/show.html.erb within layouts/crawler (Duration: 0.4ms | Allocations: 107)
+  Rendered layout layouts/crawler.html.erb (Duration: 3.8ms | Allocations: 1672)
+Completed 200 OK in 41ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 10083)
+start
+done
+start
+done
+Started GET "/" for 109.70.100.31 at 2023-03-06 14:10:59 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 17.3ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 18156)
+Completed 200 OK in 80ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 42841)
+Started GET "/posts.rss" for 23.152.225.4 at 2023-03-06 14:11:10 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 32.0ms | Allocations: 19501)
+Completed 200 OK in 58ms (Views: 32.9ms | ActiveRecord: 0.0ms | Allocations: 29324)
+Started GET "/more/contact" for 23.152.225.4 at 2023-03-06 14:11:12 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.8ms | Allocations: 1841)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 23.152.225.4 at 2023-03-06 14:11:15 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.9ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 192.42.116.176 at 2023-03-06 14:19:37 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 15.1ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 18155)
+Completed 200 OK in 79ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 42839)
+Started GET "/posts.rss" for 192.42.116.176 at 2023-03-06 14:19:47 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 33.7ms | Allocations: 19499)
+Completed 200 OK in 60ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 29304)
+Started GET "/more/contact" for 192.42.116.176 at 2023-03-06 14:19:50 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.8ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.8ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 192.42.116.176 at 2023-03-06 14:19:53 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/" for 92.119.177.20 at 2023-03-06 14:20:34 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 17.4ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 18155)
+Completed 200 OK in 65ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 39784)
+Started GET "/posts.rss" for 92.119.177.20 at 2023-03-06 14:20:39 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 33.0ms | Allocations: 19499)
+Completed 200 OK in 59ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 29202)
+Started GET "/more/contact" for 92.119.177.20 at 2023-03-06 14:20:40 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.6ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 92.119.177.20 at 2023-03-06 14:20:41 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 23.128.248.30 at 2023-03-06 14:30:49 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 14.7ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 18155)
+Completed 200 OK in 93ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 49603)
+start
+done
+Started GET "/posts.rss" for 23.129.64.136 at 2023-03-06 14:30:58 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 34.5ms | Allocations: 19490)
+Completed 200 OK in 60ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 29295)
+Started GET "/more/contact" for 23.129.64.136 at 2023-03-06 14:31:01 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.9ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 23.129.64.136 at 2023-03-06 14:31:04 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 162.247.74.206 at 2023-03-06 14:52:03 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 18.4ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 18156)
+Completed 200 OK in 87ms (Views: 30.1ms | ActiveRecord: 0.0ms | Allocations: 42893)
+Started GET "/posts.rss" for 162.247.74.206 at 2023-03-06 14:52:15 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 35.5ms | Allocations: 19500)
+Completed 200 OK in 65ms (Views: 36.7ms | ActiveRecord: 0.0ms | Allocations: 29305)
+Started GET "/more/contact" for 162.247.74.206 at 2023-03-06 14:52:20 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 203.28.246.123 at 2023-03-06 14:52:22 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 66.249.64.250 at 2023-03-06 15:25:37 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 676)
+Started GET "/categories" for 66.249.64.252 at 2023-03-06 15:25:38 +0000
+Processing by CategoriesController#index as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered categories/index.html.erb within layouts/crawler (Duration: 1.4ms | Allocations: 597)
+  Rendered layout layouts/crawler.html.erb (Duration: 4.7ms | Allocations: 2055)
+Completed 200 OK in 80ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 33174)
+start
+done
+Started GET "/" for 94.102.61.10 at 2023-03-06 15:29:03 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/crawler (Duration: 15.4ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 19.0ms | Allocations: 15193)
+Completed 200 OK in 73ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 39879)
+start
+done
+Started GET "/" for 94.102.61.10 at 2023-03-06 15:31:12 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/crawler (Duration: 17.3ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 21.7ms | Allocations: 15193)
+Completed 200 OK in 75ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 39879)
+Started GET "/" for 192.42.116.195 at 2023-03-06 15:32:30 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 17.4ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 18155)
+Completed 200 OK in 83ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 42839)
+Started GET "/posts.rss" for 192.42.116.195 at 2023-03-06 15:32:35 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 32.2ms | Allocations: 19501)
+Completed 200 OK in 59ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 29306)
+Started GET "/more/contact" for 212.192.246.54 at 2023-03-06 15:32:37 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 212.192.246.54 at 2023-03-06 15:32:39 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.3ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 94.102.61.10 at 2023-03-06 15:41:43 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/crawler (Duration: 14.5ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 18.3ms | Allocations: 15193)
+Completed 200 OK in 70ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 39879)
+start
+done
+start
+done
+Started GET "/t/dad-cant-hear-or-answer-the-question-on-the-call/676" for 66.249.64.252 at 2023-03-06 15:47:33 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"dad-cant-hear-or-answer-the-question-on-the-call", "topic_id"=>"676"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.4ms | Allocations: 3216)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.7ms | Allocations: 4547)
+Completed 200 OK in 75ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 28377)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 192.42.116.198 at 2023-03-06 16:37:24 +0000
+Processing by ListController#latest as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/application (Duration: 17.6ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 18156)
+Completed 200 OK in 108ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 50889)
+Started GET "/posts.rss" for 162.247.74.7 at 2023-03-06 16:37:34 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 38.7ms | Allocations: 19501)
+Completed 200 OK in 66ms (Views: 39.6ms | ActiveRecord: 0.0ms | Allocations: 29306)
+Started GET "/more/contact" for 162.247.74.7 at 2023-03-06 16:37:37 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.9ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 185.220.101.146 at 2023-03-06 16:37:39 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.9ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 66.249.64.252 at 2023-03-06 16:55:37 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 68)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/categories" for 66.249.64.252 at 2023-03-06 16:55:37 +0000
+Processing by CategoriesController#index as HTML
+  Rendered categories/index.html.erb within layouts/crawler (Duration: 0.7ms | Allocations: 597)
+  Rendered layout layouts/crawler.html.erb (Duration: 4.0ms | Allocations: 2083)
+Completed 200 OK in 65ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 28668)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+Started GET "/" for 192.42.116.180 at 2023-03-06 17:09:26 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 15.5ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 18155)
+Completed 200 OK in 95ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 49595)
+Started GET "/posts.rss" for 185.246.188.60 at 2023-03-06 17:09:32 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 32.7ms | Allocations: 19499)
+Completed 200 OK in 59ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 29304)
+Started GET "/more/contact" for 185.246.188.60 at 2023-03-06 17:09:34 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 185.246.188.60 at 2023-03-06 17:09:36 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.8ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 144.76.23.197 at 2023-03-06 17:28:06 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 67)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 674)
+Started GET "/" for 144.76.23.197 at 2023-03-06 17:28:07 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 16.3ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 20.0ms | Allocations: 15193)
+Completed 200 OK in 74ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 39877)
+Started GET "/" for 185.180.143.8 at 2023-03-06 17:28:36 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/application (Duration: 14.3ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 18155)
+Completed 200 OK in 62ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 39786)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 46.159.180.126 at 2023-03-06 17:38:41 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 14.5ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 18155)
+Completed 200 OK in 76ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 42839)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 193.188.20.238 at 2023-03-06 18:33:55 +0000
+Processing by ListController#latest as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/application (Duration: 17.1ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 23399)
+Completed 200 OK in 128ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 56372)
+Started GET "/robots.txt" for 66.249.64.253 at 2023-03-06 18:35:27 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 68)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/" for 66.249.64.250 at 2023-03-06 18:35:28 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 17.7ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 21.3ms | Allocations: 15222)
+Completed 200 OK in 82ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 39908)
+start
+done
+start
+done
+Started GET "/" for 85.206.170.36 at 2023-03-06 18:40:58 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 15.9ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 18155)
+Completed 200 OK in 84ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 42839)
+Started GET "/posts.rss" for 85.206.170.36 at 2023-03-06 18:41:03 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 32.4ms | Allocations: 19498)
+Completed 200 OK in 58ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 29303)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+Started GET "/" for 183.136.225.32 at 2023-03-06 19:19:06 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/application (Duration: 17.3ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 18155)
+Completed 200 OK in 99ms (Views: 28.3ms | ActiveRecord: 0.0ms | Allocations: 49597)
+start
+done
+Started GET "/" for 185.246.188.73 at 2023-03-06 19:21:28 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 15.3ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 18155)
+Completed 200 OK in 80ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 42839)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 66.249.64.252 at 2023-03-06 19:35:34 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 67)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 674)
+start
+done
+start
+done
+Started GET "/" for 159.89.230.109 at 2023-03-06 19:40:02 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/application (Duration: 14.8ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 18155)
+Completed 200 OK in 79ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 42841)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 154.47.30.19 at 2023-03-06 20:09:53 +0000
+Processing by ListController#latest as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/application (Duration: 15.7ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 36.8ms | Allocations: 18155)
+Completed 200 OK in 116ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 50410)
+Started GET "/posts.rss" for 154.47.30.19 at 2023-03-06 20:10:04 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 40.1ms | Allocations: 19501)
+Completed 200 OK in 73ms (Views: 41.3ms | ActiveRecord: 0.0ms | Allocations: 29306)
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 65.108.46.72 at 2023-03-06 20:44:46 +0000
+Processing by RobotsTxtController#index as */*
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 677)
+Started GET "/c/general/4" for 65.108.46.72 at 2023-03-06 20:44:48 +0000
+Processing by ListController#category_default as HTML
+  Parameters: {"category_slug_path_with_id"=>"general/4"}
+  Rendered list/list.erb within layouts/crawler (Duration: 16.9ms | Allocations: 13889)
+  Rendered layout layouts/crawler.html.erb (Duration: 21.2ms | Allocations: 15330)
+Completed 200 OK in 105ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 48220)
+Started GET "/categories" for 65.108.46.72 at 2023-03-06 20:44:51 +0000
+Processing by CategoriesController#index as HTML
+  Rendered categories/index.html.erb within layouts/crawler (Duration: 0.9ms | Allocations: 597)
+  Rendered layout layouts/crawler.html.erb (Duration: 4.6ms | Allocations: 2055)
+Completed 200 OK in 47ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 22554)
+Started GET "/latest.rss" for 65.108.46.72 at 2023-03-06 20:44:54 +0000
+Processing by ListController#latest_feed as HTML
+  Rendered list/list.rss.erb (Duration: 138.4ms | Allocations: 62542)
+Completed 200 OK in 154ms (Views: 139.5ms | ActiveRecord: 0.0ms | Allocations: 69313)
+Started GET "/latest?no_definitions=true&page=1" for 65.108.46.72 at 2023-03-06 20:44:57 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"no_definitions"=>"true", "page"=>"1"}
+  Rendered list/list.erb within layouts/crawler (Duration: 17.0ms | Allocations: 13747)
+  Rendered layout layouts/crawler.html.erb (Duration: 21.5ms | Allocations: 15216)
+Completed 200 OK in 61ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 36841)
+Started GET "/posts.rss" for 65.108.46.72 at 2023-03-06 20:44:59 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 34.6ms | Allocations: 19501)
+Completed 200 OK in 60ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 29204)
+Started GET "/privacy" for 65.108.46.72 at 2023-03-06 20:45:02 +0000
+Processing by StaticController#show as HTML
+  Parameters: {"id"=>"privacy"}
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 13.3ms | Allocations: 3639)
+  Rendered layout layouts/no_ember.html.erb (Duration: 21.9ms | Allocations: 5651)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Completed 404 Not Found in 42ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 11357)
+Started GET "/t/aged-care-fees/744" for 65.108.46.72 at 2023-03-06 20:45:05 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"aged-care-fees", "topic_id"=>"744"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 11.2ms | Allocations: 3293)
+  Rendered layout layouts/crawler.html.erb (Duration: 13.6ms | Allocations: 4596)
+Completed 200 OK in 71ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 24801)
+Started GET "/t/aged-pension-and-aged-care/751" for 65.108.46.72 at 2023-03-06 20:45:08 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"aged-pension-and-aged-care", "topic_id"=>"751"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.6ms | Allocations: 3038)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.1ms | Allocations: 4341)
+Completed 200 OK in 66ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 23775)
+Started GET "/t/amount-i-pay-from-my-pension-for-package-3-fortnightly/771" for 65.108.46.72 at 2023-03-06 20:45:10 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"amount-i-pay-from-my-pension-for-package-3-fortnightly", "topic_id"=>"771"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.9ms | Allocations: 2455)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.4ms | Allocations: 3758)
+Completed 200 OK in 60ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 22394)
+Started GET "/t/annual-caps-on-aged-care/739" for 65.108.46.72 at 2023-03-06 20:45:13 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"annual-caps-on-aged-care", "topic_id"=>"739"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.9ms | Allocations: 3361)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.4ms | Allocations: 4664)
+Completed 200 OK in 65ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 24490)
+Started GET "/t/are-nz-citizens-treated-the-same-as-australian-citizens-as-far-as-eligilbity-funding-for-aged-care/745" for 65.108.46.72 at 2023-03-06 20:45:15 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"are-nz-citizens-treated-the-same-as-australian-citizens-as-far-as-eligilbity-funding-for-aged-care", "topic_id"=>"745"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.0ms | Allocations: 2377)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.5ms | Allocations: 3680)
+Completed 200 OK in 63ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 22089)
+Started GET "/t/calculation-of-assets/743" for 65.108.46.72 at 2023-03-06 20:45:18 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"calculation-of-assets", "topic_id"=>"743"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.9ms | Allocations: 2293)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.4ms | Allocations: 3596)
+Completed 200 OK in 62ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 22007)
+start
+done
+Started GET "/t/cdc-on-hcp/748" for 65.108.46.72 at 2023-03-06 20:45:21 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"cdc-on-hcp", "topic_id"=>"748"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 8.4ms | Allocations: 2556)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.9ms | Allocations: 3858)
+Completed 200 OK in 79ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 22680)
+Started GET "/t/chsp-means-tested/775" for 65.108.46.72 at 2023-03-06 20:45:23 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"chsp-means-tested", "topic_id"=>"775"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.7ms | Allocations: 2431)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.2ms | Allocations: 3733)
+Completed 200 OK in 73ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 22352)
+Started GET "/t/daily-accommodation-contribution/753" for 65.108.46.72 at 2023-03-06 20:45:26 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"daily-accommodation-contribution", "topic_id"=>"753"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.6ms | Allocations: 2595)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.2ms | Allocations: 3898)
+Completed 200 OK in 69ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 22718)
+Started GET "/t/hcp-and-aged-care-home-eligibilities/772" for 65.108.46.72 at 2023-03-06 20:45:28 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"hcp-and-aged-care-home-eligibilities", "topic_id"=>"772"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.5ms | Allocations: 2627)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.0ms | Allocations: 3930)
+Completed 200 OK in 70ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 22767)
+Started GET "/t/health-is-more-important-for-everyone/749" for 65.108.46.72 at 2023-03-06 20:45:31 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"health-is-more-important-for-everyone", "topic_id"=>"749"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.3ms | Allocations: 2284)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.1ms | Allocations: 3587)
+Completed 200 OK in 64ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 21997)
+Started GET "/t/house-evaluation/754" for 65.108.46.72 at 2023-03-06 20:45:34 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"house-evaluation", "topic_id"=>"754"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.1ms | Allocations: 2266)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.8ms | Allocations: 3569)
+Completed 200 OK in 63ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 21976)
+Started GET "/t/how-will-selling-the-family-home-affects-dads-subsidised-aged-care/746" for 65.108.46.72 at 2023-03-06 20:45:36 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"how-will-selling-the-family-home-affects-dads-subsidised-aged-care", "topic_id"=>"746"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.3ms | Allocations: 2495)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.8ms | Allocations: 3798)
+Completed 200 OK in 66ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 22437)
+Started GET "/t/joint-bank-account-with-grandson-will-this-be-assessed/734" for 65.108.46.72 at 2023-03-06 20:45:39 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"joint-bank-account-with-grandson-will-this-be-assessed", "topic_id"=>"734"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.5ms | Allocations: 2452)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.0ms | Allocations: 3755)
+Completed 200 OK in 65ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 22391)
+Started GET "/t/land-lease/777" for 65.108.46.72 at 2023-03-06 20:45:42 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"land-lease", "topic_id"=>"777"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.7ms | Allocations: 2255)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.4ms | Allocations: 3557)
+Completed 200 OK in 64ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 21961)
+Started GET "/t/low-means-resident/747" for 65.108.46.72 at 2023-03-06 20:45:44 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"low-means-resident", "topic_id"=>"747"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 8.4ms | Allocations: 2474)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.9ms | Allocations: 3777)
+Completed 200 OK in 63ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 22189)
+Started GET "/t/modifications/776" for 65.108.46.72 at 2023-03-06 20:45:47 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"modifications", "topic_id"=>"776"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.1ms | Allocations: 2707)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.4ms | Allocations: 4009)
+Completed 200 OK in 66ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 23022)
+Started GET "/t/ndis/742" for 65.108.46.72 at 2023-03-06 20:45:50 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"ndis", "topic_id"=>"742"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 16.7ms | Allocations: 2773)
+  Rendered layout layouts/crawler.html.erb (Duration: 19.6ms | Allocations: 4076)
+Completed 200 OK in 79ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 23094)
+Started GET "/t/nursing-home-views-on-residents-part-time-employment/738" for 65.108.46.72 at 2023-03-06 20:45:52 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"nursing-home-views-on-residents-part-time-employment", "topic_id"=>"738"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.3ms | Allocations: 2452)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.7ms | Allocations: 3755)
+Completed 200 OK in 67ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 22372)
+Started GET "/t/oxygen-supplement/774" for 65.108.46.72 at 2023-03-06 20:45:55 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"oxygen-supplement", "topic_id"=>"774"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.8ms | Allocations: 2341)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.3ms | Allocations: 3644)
+Completed 200 OK in 62ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 22051)
+Started GET "/t/power-of-attorney-enduring-power-of-attorney/736" for 65.108.46.72 at 2023-03-06 20:45:58 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"power-of-attorney-enduring-power-of-attorney", "topic_id"=>"736"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 8.6ms | Allocations: 3372)
+  Rendered layout layouts/crawler.html.erb (Duration: 11.2ms | Allocations: 4675)
+Completed 200 OK in 70ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 24290)
+Started GET "/t/private-aged-care-costs/730" for 65.108.46.72 at 2023-03-06 20:46:00 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"private-aged-care-costs", "topic_id"=>"730"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.0ms | Allocations: 2419)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.5ms | Allocations: 3721)
+Completed 200 OK in 59ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 22339)
+Started GET "/t/protected-person-status/773" for 65.108.46.72 at 2023-03-06 20:46:03 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"protected-person-status", "topic_id"=>"773"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.7ms | Allocations: 3015)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.3ms | Allocations: 4317)
+Completed 200 OK in 63ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 23734)
+Started GET "/t/rad-reporting-changes-to-centrelink/737" for 65.108.46.72 at 2023-03-06 20:46:06 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"rad-reporting-changes-to-centrelink", "topic_id"=>"737"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2435)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.7ms | Allocations: 3738)
+Completed 200 OK in 65ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 22370)
+Started GET "/t/rad-vs-rac/755" for 65.108.46.72 at 2023-03-06 20:46:08 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"rad-vs-rac", "topic_id"=>"755"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.4ms | Allocations: 2258)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.9ms | Allocations: 3560)
+Completed 200 OK in 69ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 21963)
+Started GET "/t/reducing-means/752" for 65.108.46.72 at 2023-03-06 20:46:11 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"reducing-means", "topic_id"=>"752"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 8.0ms | Allocations: 2759)
+  Rendered layout layouts/crawler.html.erb (Duration: 11.0ms | Allocations: 4062)
+Completed 200 OK in 73ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 23098)
+Started GET "/t/refusal-to-reimburse-money/735" for 65.108.46.72 at 2023-03-06 20:46:13 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"refusal-to-reimburse-money", "topic_id"=>"735"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.3ms | Allocations: 2457)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.1ms | Allocations: 3760)
+Completed 200 OK in 65ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 22396)
+Started GET "/t/sale-of-home-no-equity-of-aged-person/750" for 65.108.46.72 at 2023-03-06 20:46:16 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"sale-of-home-no-equity-of-aged-person", "topic_id"=>"750"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.8ms | Allocations: 2434)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.3ms | Allocations: 3737)
+Completed 200 OK in 69ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 22370)
+Started GET "/t/transfer-of-home-ownership/740" for 65.108.46.72 at 2023-03-06 20:46:19 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"transfer-of-home-ownership", "topic_id"=>"740"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.1ms | Allocations: 2425)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.5ms | Allocations: 3728)
+Completed 200 OK in 65ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 22349)
+Started GET "/t/wills-in-aged-care-facilities/741" for 65.108.46.72 at 2023-03-06 20:46:21 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"wills-in-aged-care-facilities", "topic_id"=>"741"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.5ms | Allocations: 2726)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.0ms | Allocations: 4029)
+Completed 200 OK in 67ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 23047)
+Started GET "/tos" for 65.108.46.72 at 2023-03-06 20:46:24 +0000
+Processing by StaticController#show as HTML
+  Parameters: {"id"=>"tos"}
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.8ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.0ms | Allocations: 1927)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Completed 404 Not Found in 13ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 3692)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/Telerik.Web.UI.WebResource.axd?type=rau" for 128.1.248.42 at 2023-03-06 21:10:39 +0000
+ActionController::RoutingError (No route matches [GET] "/Telerik.Web.UI.WebResource.axd")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.0ms | Allocations: 1841)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 85.208.98.29 at 2023-03-06 21:25:12 +0000
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 167.248.133.44 at 2023-03-06 21:55:55 +0000
+Processing by ListController#latest as */*
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/crawler (Duration: 14.3ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 17.5ms | Allocations: 15194)
+Completed 200 OK in 94ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 47457)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 66.249.64.250 at 2023-03-06 22:24:02 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 675)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 84.46.255.144 at 2023-03-06 22:47:29 +0000
+Processing by RobotsTxtController#index as */*
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 67)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 676)
+Started GET "/" for 84.46.255.144 at 2023-03-06 22:47:32 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 50.8ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 59.9ms | Allocations: 15193)
+Completed 200 OK in 206ms (Views: 60.7ms | ActiveRecord: 0.0ms | Allocations: 46635)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 142.44.170.136 at 2023-03-06 23:25:23 +0000
+Processing by ListController#latest as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/application (Duration: 18.9ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 18156)
+Completed 200 OK in 117ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 50445)
+Started GET "/posts.rss" for 142.44.170.136 at 2023-03-06 23:25:30 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 346.1ms | Allocations: 142820)
+Completed 200 OK in 374ms (Views: 347.2ms | ActiveRecord: 0.0ms | Allocations: 152643)
+Started GET "/more/contact" for 142.44.170.136 at 2023-03-06 23:25:33 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.2ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 142.44.170.136 at 2023-03-06 23:25:35 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+Started GET "/Telerik.Web.UI.WebResource.axd?type=rau" for 128.14.134.134 at 2023-03-06 23:28:14 +0000
+ActionController::RoutingError (No route matches [GET] "/Telerik.Web.UI.WebResource.axd")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.1ms | Allocations: 1913)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" for 152.89.196.211 at 2023-03-06 23:49:49 +0000
+ActionController::RoutingError (No route matches [GET] "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.2ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+Started GET "/robots.txt" for 85.208.98.18 at 2023-03-06 23:56:34 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 68)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 675)
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" for 152.89.196.211 at 2023-03-07 00:08:10 +0000
+ActionController::RoutingError (No route matches [GET] "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+start
+done
+Started GET "/" for 175.176.30.2 at 2023-03-07 00:20:39 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 14.3ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 18236)
+Completed 200 OK in 131ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 58185)
+start
+done
+Started GET "/extra-locales/admin?v=dc860cceea32901ed644fd4f062afe23" for 175.176.30.2 at 2023-03-07 00:22:10 +0000
+Processing by ExtraLocalesController#show as */*
+  Parameters: {"v"=>"dc860cceea32901ed644fd4f062afe23", "bundle"=>"admin"}
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 38ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 16558)
+Started GET "/extra-locales/wizard?v=ccc9d422108b525a7ee66d08693a0571" for 175.176.30.2 at 2023-03-07 00:22:12 +0000
+Processing by ExtraLocalesController#show as */*
+  Parameters: {"v"=>"ccc9d422108b525a7ee66d08693a0571", "bundle"=>"wizard"}
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 24ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 12227)
+Started GET "/u/forumadmin/private-message-topic-tracking-state" for 175.176.30.2 at 2023-03-07 00:22:18 +0000
+Processing by UsersController#private_message_topic_tracking_state as JSON
+  Parameters: {"username"=>"forumadmin"}
+Completed 200 OK in 20ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1939)
+Started GET "/posts.rss" for 175.176.30.2 at 2023-03-07 00:22:21 +0000
+Started GET "/latest.rss" for 175.176.30.2 at 2023-03-07 00:22:21 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+Processing by ListController#latest_feed as RSS
+  Rendered posts/latest.rss.erb (Duration: 35.5ms | Allocations: 19501)
+Completed 200 OK in 77ms (Views: 36.4ms | ActiveRecord: 0.0ms | Allocations: 32428)
+  Rendered list/list.rss.erb (Duration: 133.4ms | Allocations: 62444)
+Completed 200 OK in 158ms (Views: 134.4ms | ActiveRecord: 0.0ms | Allocations: 71152)
+Sent file /var/www/discourse/tmp/avatar_proxy/8c440a8792697360e5efd3d45e342b4371683b7e.png (0.1ms)
+Started GET "/admin/site_settings/category/basic" for 175.176.30.2 at 2023-03-07 00:23:42 +0000
+Processing by Admin::SiteSettingsController#index as HTML
+  Parameters: {"id"=>"basic"}
+  Rendered default/empty.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 4496)
+Completed 200 OK in 70ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 16785)
+Started GET "/admin/site_settings" for 175.176.30.2 at 2023-03-07 00:23:45 +0000
+Processing by Admin::SiteSettingsController#index as JSON
+Completed 200 OK in 133ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 124350)
+Started GET "/u/forumadmin/private-message-topic-tracking-state" for 175.176.30.2 at 2023-03-07 00:23:45 +0000
+Processing by UsersController#private_message_topic_tracking_state as JSON
+  Parameters: {"username"=>"forumadmin"}
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1935)
+Started GET "/admin/site_settings/category/basic" for 175.176.30.2 at 2023-03-07 00:23:48 +0000
+Processing by Admin::SiteSettingsController#index as HTML
+  Parameters: {"id"=>"basic"}
+  Rendered default/empty.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 4496)
+Completed 200 OK in 49ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 13792)
+Started GET "/admin/site_settings/category/users?filter=" for 175.176.30.2 at 2023-03-07 00:23:50 +0000
+Processing by Admin::SiteSettingsController#index as HTML
+  Parameters: {"filter"=>"", "id"=>"users"}
+  Rendered default/empty.html.erb within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 4496)
+Completed 200 OK in 50ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 13792)
+Started GET "/admin/site_settings" for 175.176.30.2 at 2023-03-07 00:23:53 +0000
+Processing by Admin::SiteSettingsController#index as JSON
+Completed 200 OK in 127ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 122744)
+Started GET "/u/forumadmin/private-message-topic-tracking-state" for 175.176.30.2 at 2023-03-07 00:23:53 +0000
+Processing by UsersController#private_message_topic_tracking_state as JSON
+  Parameters: {"username"=>"forumadmin"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1935)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/solr/admin/info/system?wt=json" for 152.89.196.211 at 2023-03-07 00:53:52 +0000
+ActionController::RoutingError (No route matches [GET] "/solr/admin/info/system")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.4ms | Allocations: 1841)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+Started GET "/" for 172.70.46.157 at 2023-03-07 00:55:59 +0000
+Processing by ListController#latest as */*
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/crawler (Duration: 15.9ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 19.1ms | Allocations: 15194)
+Completed 200 OK in 78ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 44542)
+Started GET "/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21" for 152.89.196.211 at 2023-03-07 00:57:38 +0000
+ActionController::RoutingError (No route matches [GET] "/index.php")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.2ms | Allocations: 1841)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 154.209.125.10 at 2023-03-07 01:10:47 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/application (Duration: 15.4ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 18155)
+Completed 200 OK in 66ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 39922)
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+Started GET "/" for 159.196.2.242 at 2023-03-07 01:18:52 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 14.6ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 18246)
+Completed 200 OK in 121ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 53052)
+Started GET "/u/ChadTolkienAC101/private-message-topic-tracking-state" for 159.196.2.242 at 2023-03-07 01:18:53 +0000
+Processing by UsersController#private_message_topic_tracking_state as JSON
+  Parameters: {"username"=>"ChadTolkienAC101"}
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2121)
+Started GET "/" for 159.196.2.242 at 2023-03-07 01:19:11 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 18.6ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 18237)
+Completed 200 OK in 110ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 48928)
+Started GET "/u/ChadTolkienAC101/private-message-topic-tracking-state" for 159.196.2.242 at 2023-03-07 01:19:12 +0000
+Processing by UsersController#private_message_topic_tracking_state as JSON
+  Parameters: {"username"=>"ChadTolkienAC101"}
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1959)
+Started GET "/" for 159.196.2.242 at 2023-03-07 01:19:22 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 16.4ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 18236)
+Completed 200 OK in 104ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 48921)
+Started GET "/u/ChadTolkienAC101/private-message-topic-tracking-state" for 159.196.2.242 at 2023-03-07 01:19:22 +0000
+Processing by UsersController#private_message_topic_tracking_state as JSON
+  Parameters: {"username"=>"ChadTolkienAC101"}
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1955)
+Started GET "/" for 192.42.116.211 at 2023-03-07 01:20:33 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 16.4ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 18155)
+Completed 200 OK in 68ms (Views: 27.5ms | ActiveRecord: 0.0ms | Allocations: 39920)
+Started GET "/posts.rss" for 192.42.116.211 at 2023-03-07 01:20:37 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 33.9ms | Allocations: 19501)
+Completed 200 OK in 58ms (Views: 35.1ms | ActiveRecord: 0.0ms | Allocations: 29221)
+Started GET "/more/contact" for 192.42.116.211 at 2023-03-07 01:20:39 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.7ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.1ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 192.42.116.211 at 2023-03-07 01:20:40 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.7ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.6ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+Started GET "/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>" for 152.89.196.211 at 2023-03-07 01:25:02 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"a"=>"fetch", "content"=>"<php>die(@md5(HelloThinkCMF))</php>", "list"=>{}}
+  Rendered list/list.erb within layouts/application (Duration: 15.4ms | Allocations: 13706)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 18148)
+Completed 200 OK in 67ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 39908)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 162.142.125.213 at 2023-03-07 01:38:24 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/crawler (Duration: 14.5ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 17.7ms | Allocations: 15193)
+Completed 200 OK in 85ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 46644)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 20.169.168.224 at 2023-03-07 02:01:15 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 17.7ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 18156)
+Completed 200 OK in 69ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 39925)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 94.102.61.10 at 2023-03-07 02:11:13 +0000
+Processing by ListController#latest as */*
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/application (Duration: 14.4ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 18155)
+Completed 200 OK in 83ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 47502)
+Started GET "/" for 212.32.226.230 at 2023-03-07 02:11:44 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 14.5ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 18155)
+Completed 200 OK in 58ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 39784)
+Started GET "/posts.rss" for 212.32.226.230 at 2023-03-07 02:11:50 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 32.0ms | Allocations: 19501)
+Completed 200 OK in 57ms (Views: 32.8ms | ActiveRecord: 0.0ms | Allocations: 29221)
+Started GET "/more/contact" for 212.32.226.230 at 2023-03-07 02:11:52 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 212.32.226.230 at 2023-03-07 02:11:54 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+Started GET "/console/" for 152.89.196.211 at 2023-03-07 02:16:34 +0000
+ActionController::RoutingError (No route matches [GET] "/console")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 7.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 85.206.170.36 at 2023-03-07 02:26:24 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 16.9ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 18156)
+Completed 200 OK in 71ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 39923)
+Started GET "/posts.rss" for 85.206.170.36 at 2023-03-07 02:26:29 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 32.4ms | Allocations: 19499)
+Completed 200 OK in 59ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 29219)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 20.55.53.144 at 2023-03-07 02:41:14 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/application (Duration: 14.5ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 18155)
+Completed 200 OK in 91ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 49607)
+Started GET "/Autodiscover/Autodiscover.xml" for 152.89.196.211 at 2023-03-07 02:41:28 +0000
+ActionController::RoutingError (No route matches [GET] "/Autodiscover/Autodiscover.xml")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+Started GET "/robots.txt" for 66.249.64.250 at 2023-03-07 02:45:37 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/t/is-basic-daily-fee-negotiable/681" for 66.249.64.252 at 2023-03-07 02:45:38 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"is-basic-daily-fee-negotiable", "topic_id"=>"681"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 13.3ms | Allocations: 4238)
+  Rendered layout layouts/crawler.html.erb (Duration: 15.6ms | Allocations: 5569)
+Completed 200 OK in 79ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 25375)
+start
+done
+Started GET "/" for 109.70.100.83 at 2023-03-07 02:47:52 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 19.0ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 18156)
+Completed 200 OK in 76ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 39924)
+Started GET "/posts.rss" for 109.70.100.83 at 2023-03-07 02:48:00 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 35.5ms | Allocations: 19501)
+Completed 200 OK in 62ms (Views: 36.4ms | ActiveRecord: 0.0ms | Allocations: 29221)
+Started GET "/more/contact" for 109.70.100.83 at 2023-03-07 02:48:02 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 1.0ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.1ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 109.70.100.83 at 2023-03-07 02:48:05 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.2ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+Started GET "/" for 156.22.252.56 at 2023-03-07 02:53:00 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 16.5ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 18155)
+Completed 200 OK in 72ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 39920)
+start
+done
+start
+done
+Started GET "/" for 109.70.100.36 at 2023-03-07 03:00:59 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 16.9ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 18155)
+Completed 200 OK in 69ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 39920)
+Started GET "/posts.rss" for 185.220.102.242 at 2023-03-07 03:01:09 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 31.8ms | Allocations: 19501)
+Completed 200 OK in 57ms (Views: 32.7ms | ActiveRecord: 0.0ms | Allocations: 29204)
+Started GET "/more/contact" for 185.220.102.242 at 2023-03-07 03:01:12 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 185.220.100.253 at 2023-03-07 03:01:15 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.3ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 185.180.143.8 at 2023-03-07 03:05:58 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/application (Duration: 20.1ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 31.4ms | Allocations: 18156)
+Completed 200 OK in 78ms (Views: 37.1ms | ActiveRecord: 0.0ms | Allocations: 39923)
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/_ignition/execute-solution" for 152.89.196.211 at 2023-03-07 03:16:45 +0000
+ActionController::RoutingError (No route matches [GET] "/_ignition/execute-solution")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.8ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+Started GET "/remote/login" for 128.14.133.58 at 2023-03-07 03:20:03 +0000
+ActionController::RoutingError (No route matches [GET] "/remote/login")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/" for 198.235.24.134 at 2023-03-07 03:20:24 +0000
+Processing by ListController#latest as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/crawler (Duration: 15.9ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 19.3ms | Allocations: 15194)
+Completed 200 OK in 78ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 44536)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/t/buyback-fees-for-ilu-into-care-facility/693" for 66.249.64.252 at 2023-03-07 03:50:37 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"buyback-fees-for-ilu-into-care-facility", "topic_id"=>"693"}
+Started GET "/robots.txt" for 66.249.64.250 at 2023-03-07 03:50:37 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 10ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 1194)
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.7ms | Allocations: 2419)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.7ms | Allocations: 3750)
+Completed 200 OK in 100ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 32080)
+Started GET "/" for 152.89.196.211 at 2023-03-07 03:50:47 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"list"=>{}}
+  Rendered list/list.erb within layouts/application (Duration: 16.7ms | Allocations: 13709)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 18151)
+Completed 200 OK in 68ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 39775)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+Started GET "/" for 199.167.138.122 at 2023-03-07 04:18:22 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 14.9ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 18155)
+Completed 200 OK in 67ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 39920)
+Started GET "/posts.rss" for 199.167.138.122 at 2023-03-07 04:18:27 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 44.7ms | Allocations: 19501)
+Completed 200 OK in 71ms (Views: 46.3ms | ActiveRecord: 0.0ms | Allocations: 29221)
+Started GET "/more/contact" for 199.167.138.122 at 2023-03-07 04:18:28 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 199.167.138.122 at 2023-03-07 04:18:29 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 1.9ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 8.3ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/more/contact" for 199.167.138.122 at 2023-03-07 04:18:30 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 199.167.138.122 at 2023-03-07 04:18:32 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.6ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.0ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 152.89.196.211 at 2023-03-07 04:27:10 +0000
+Processing by ListController#latest as HTML
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/application (Duration: 17.1ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 18156)
+Completed 200 OK in 123ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 50420)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 49.197.162.221 at 2023-03-07 04:37:23 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 0.8ms | Allocations: 557)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 5031)
+Completed 200 OK in 55ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 26798)
+Started GET "/opensearch.xml" for 49.197.162.221 at 2023-03-07 04:37:24 +0000
+Processing by MetadataController#opensearch as XML
+  Rendered metadata/opensearch.xml.erb (Duration: 0.2ms | Allocations: 34)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 619)
+Started GET "/t/755.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:37:26 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "id"=>"755"}
+Completed 200 OK in 48ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17740)
+Started GET "/t/750.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:37:37 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "id"=>"750"}
+Completed 200 OK in 51ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17154)
+start
+done
+Started GET "/u/system/card.json?include_post_count_for=750" for 49.197.162.221 at 2023-03-07 04:39:13 +0000
+Processing by UsersController#show_card as JSON
+  Parameters: {"include_post_count_for"=>"750", "username"=>"system"}
+Completed 200 OK in 57ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 8943)
+Started GET "/t/750.json?username_filters=system" for 49.197.162.221 at 2023-03-07 04:39:38 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"username_filters"=>"system", "id"=>"750"}
+Completed 200 OK in 139ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20655)
+Started GET "/t/752.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:39:49 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "id"=>"752"}
+Completed 200 OK in 100ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17413)
+Sent file /var/www/discourse/public/uploads/default/optimized/1X/87d85a42b507f2693695117b6952366b2cc9a8b9_2_96x96.png (0.1ms)
+Started GET "/t/750/2.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:40:07 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "topic_id"=>"750", "post_number"=>"2"}
+Completed 200 OK in 80ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16900)
+Started GET "/t/755.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:40:09 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "id"=>"755"}
+Completed 200 OK in 48ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16448)
+Started GET "/latest.json?ascending=false" for 49.197.162.221 at 2023-03-07 04:40:11 +0000
+Processing by ListController#latest as JSON
+  Parameters: {"ascending"=>"false"}
+Completed 200 OK in 41ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21063)
+Started GET "/t/753.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:40:20 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "id"=>"753"}
+Completed 200 OK in 49ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17203)
+start
+done
+Started GET "/latest.json?ascending=false" for 49.197.162.221 at 2023-03-07 04:41:07 +0000
+Processing by ListController#latest as JSON
+  Parameters: {"ascending"=>"false"}
+Completed 200 OK in 36ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21062)
+Started GET "/t/750/2.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:41:16 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "topic_id"=>"750", "post_number"=>"2"}
+Completed 200 OK in 52ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18115)
+Started GET "/latest.json?ascending=false" for 49.197.162.221 at 2023-03-07 04:41:25 +0000
+Started GET "/t/746.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:41:35 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "id"=>"746"}
+Completed 200 OK in 53ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17378)
+Started GET "/latest.json?ascending=false" for 49.197.162.221 at 2023-03-07 04:43:13 +0000
+Processing by ListController#latest as JSON
+  Parameters: {"ascending"=>"false"}
+Completed 200 OK in 42ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21198)
+Started GET "/latest.json?ascending=false&no_definitions=true&page=1" for 49.197.162.221 at 2023-03-07 04:43:18 +0000
+Processing by ListController#latest as JSON
+  Parameters: {"ascending"=>"false", "no_definitions"=>"true", "page"=>"1"}
+Completed 200 OK in 37ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21058)
+Started GET "/t/732.json?track_visit=true&forceLoad=true" for 49.197.162.221 at 2023-03-07 04:43:28 +0000
+Processing by TopicsController#show as JSON
+  Parameters: {"track_visit"=>"true", "forceLoad"=>"true", "id"=>"732"}
+Completed 200 OK in 56ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19806)
+start
+done
+start
+done
+Started GET "/" for 172.71.102.107 at 2023-03-07 04:48:34 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/crawler (Duration: 15.9ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 19.4ms | Allocations: 15194)
+Completed 200 OK in 61ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 36962)
+start
+done
+Started GET "/actuator/gateway/routes" for 152.89.196.211 at 2023-03-07 04:51:56 +0000
+ActionController::RoutingError (No route matches [GET] "/actuator/gateway/routes")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.2ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 66.249.64.253 at 2023-03-07 05:05:37 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 676)
+Started GET "/" for 66.249.64.253 at 2023-03-07 05:05:37 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 19.2ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 22.4ms | Allocations: 15194)
+Completed 200 OK in 83ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 43727)
+start
+done
+start
+done
+start
+done
+start
+start
+done
+done
+start
+start
+done
+done
+Started GET "/" for 198.235.24.37 at 2023-03-07 05:16:11 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 15.9ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 19.7ms | Allocations: 15193)
+Completed 200 OK in 73ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 39877)
+start
+done
+start
+done
+Started GET "/geoserver" for 152.89.196.211 at 2023-03-07 05:21:03 +0000
+ActionController::RoutingError (No route matches [GET] "/geoserver")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.6ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 65.21.232.254 at 2023-03-07 06:06:47 +0000
+Processing by RobotsTxtController#index as */*
+  Rendered robots_txt/index.erb (Duration: 0.4ms | Allocations: 68)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 678)
+Started GET "/c/general/4?page=1" for 65.21.232.254 at 2023-03-07 06:06:50 +0000
+Processing by ListController#category_default as HTML
+  Parameters: {"page"=>"1", "category_slug_path_with_id"=>"general/4"}
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/crawler (Duration: 16.8ms | Allocations: 13932)
+  Rendered layout layouts/crawler.html.erb (Duration: 20.0ms | Allocations: 15373)
+Completed 200 OK in 86ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 46106)
+Started GET "/c/site-feedback/2" for 65.21.232.254 at 2023-03-07 06:06:52 +0000
+Processing by ListController#category_default as HTML
+  Parameters: {"category_slug_path_with_id"=>"site-feedback/2"}
+  Rendered list/list.erb within layouts/crawler (Duration: 3.0ms | Allocations: 1656)
+  Rendered layout layouts/crawler.html.erb (Duration: 6.0ms | Allocations: 3096)
+Completed 200 OK in 31ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 11183)
+Started GET "/latest?no_definitions=true" for 65.21.232.254 at 2023-03-07 06:06:55 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"no_definitions"=>"true"}
+  Rendered list/list.erb within layouts/crawler (Duration: 14.4ms | Allocations: 13699)
+  Rendered layout layouts/crawler.html.erb (Duration: 17.5ms | Allocations: 15157)
+Completed 200 OK in 53ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 36786)
+Started GET "/latest?no_definitions=true&page=2" for 65.21.232.254 at 2023-03-07 06:06:57 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"no_definitions"=>"true", "page"=>"2"}
+  Rendered list/list.erb within layouts/crawler (Duration: 14.8ms | Allocations: 13844)
+  Rendered layout layouts/crawler.html.erb (Duration: 17.8ms | Allocations: 15315)
+Completed 200 OK in 53ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 36963)
+Started GET "/latest?page=1" for 65.21.232.254 at 2023-03-07 06:07:00 +0000
+Processing by ListController#latest as HTML
+  Parameters: {"page"=>"1"}
+  Rendered list/list.erb within layouts/crawler (Duration: 14.8ms | Allocations: 13749)
+  Rendered layout layouts/crawler.html.erb (Duration: 18.0ms | Allocations: 15218)
+Completed 200 OK in 53ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 36843)
+Started GET "/t/about-the-general-category/780" for 65.21.232.254 at 2023-03-07 06:07:02 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"about-the-general-category", "topic_id"=>"780"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.0ms | Allocations: 2275)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.2ms | Allocations: 3577)
+Completed 200 OK in 69ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 23619)
+Started GET "/t/acat-help/768" for 65.21.232.254 at 2023-03-07 06:07:05 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"acat-help", "topic_id"=>"768"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2464)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.1ms | Allocations: 3767)
+Completed 200 OK in 67ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 22383)
+Started GET "/t/aging-in-place-responsibilities/723" for 65.21.232.254 at 2023-03-07 06:07:07 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"aging-in-place-responsibilities", "topic_id"=>"723"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2725)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.4ms | Allocations: 4028)
+Completed 200 OK in 61ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 23048)
+Started GET "/t/applying-for-financial-hardship-unrealisable-assest/722" for 65.21.232.254 at 2023-03-07 06:07:10 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"applying-for-financial-hardship-unrealisable-assest", "topic_id"=>"722"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.1ms | Allocations: 2760)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.2ms | Allocations: 4063)
+Completed 200 OK in 58ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 21221)
+Started GET "/t/assessable-assets-and-accommodation-contribution/710" for 65.21.232.254 at 2023-03-07 06:07:13 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"assessable-assets-and-accommodation-contribution", "topic_id"=>"710"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 8.7ms | Allocations: 3954)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.9ms | Allocations: 5257)
+Completed 200 OK in 66ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 25887)
+Started GET "/t/can-i-look-online-to-determine-if-a-nursing-home-is-classified-as-significantly-refurbished-from-centelink-perspective/715" for 65.21.232.254 at 2023-03-07 06:07:15 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"can-i-look-online-to-determine-if-a-nursing-home-is-classified-as-significantly-refurbished-from-centelink-perspective", "topic_id"=>"715"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2575)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.5ms | Allocations: 3878)
+Completed 200 OK in 58ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 20637)
+Started GET "/t/dac/717" for 65.21.232.254 at 2023-03-07 06:07:18 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"dac", "topic_id"=>"717"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.3ms | Allocations: 2413)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.8ms | Allocations: 3716)
+Completed 200 OK in 61ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 22321)
+Started GET "/t/dad-owns-part-of-our-property/724" for 65.21.232.254 at 2023-03-07 06:07:21 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"dad-owns-part-of-our-property", "topic_id"=>"724"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.3ms | Allocations: 2441)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.3ms | Allocations: 3743)
+Completed 200 OK in 87ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 22353)
+Started GET "/t/epoa-mismanaging-her-mothers-bank-account/716" for 65.21.232.254 at 2023-03-07 06:07:23 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"epoa-mismanaging-her-mothers-bank-account", "topic_id"=>"716"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.5ms | Allocations: 2587)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.0ms | Allocations: 3890)
+Completed 200 OK in 61ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 20837)
+Started GET "/t/home/729" for 65.21.232.254 at 2023-03-07 06:07:26 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"home", "topic_id"=>"729"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2623)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.6ms | Allocations: 3926)
+Completed 200 OK in 58ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 22536)
+Started GET "/t/interim-nursing-home-refusing-outings-mum-not-eating/719" for 65.21.232.254 at 2023-03-07 06:07:29 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"interim-nursing-home-refusing-outings-mum-not-eating", "topic_id"=>"719"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2747)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.4ms | Allocations: 4050)
+Completed 200 OK in 65ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 21211)
+Started GET "/t/item-codes-on-care-provider-invoices/769" for 65.21.232.254 at 2023-03-07 06:07:31 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"item-codes-on-care-provider-invoices", "topic_id"=>"769"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.6ms | Allocations: 2537)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.0ms | Allocations: 3840)
+Completed 200 OK in 57ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 22456)
+Started GET "/t/legal-documents/718" for 65.21.232.254 at 2023-03-07 06:07:34 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"legal-documents", "topic_id"=>"718"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.9ms | Allocations: 2563)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.1ms | Allocations: 3866)
+Completed 200 OK in 61ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 22679)
+Started GET "/t/listing-of-soft-facilities-vs-harsh-re-covid-lockdowns/721" for 65.21.232.254 at 2023-03-07 06:07:37 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"listing-of-soft-facilities-vs-harsh-re-covid-lockdowns", "topic_id"=>"721"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.7ms | Allocations: 2601)
+  Rendered layout layouts/crawler.html.erb (Duration: 8.9ms | Allocations: 3904)
+Completed 200 OK in 55ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 20879)
+Started GET "/t/living-separately-and-apart-gifting-to-spouse/732" for 65.21.232.254 at 2023-03-07 06:07:40 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"living-separately-and-apart-gifting-to-spouse", "topic_id"=>"732"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2630)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.5ms | Allocations: 3933)
+Completed 200 OK in 56ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 22544)
+Started GET "/t/move-to-another-nursing-home-temporary-for-christmas/726" for 65.21.232.254 at 2023-03-07 06:07:42 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"move-to-another-nursing-home-temporary-for-christmas", "topic_id"=>"726"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.8ms | Allocations: 2437)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.0ms | Allocations: 3740)
+Completed 200 OK in 51ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 20287)
+Started GET "/t/my-86-year-old-husband-may-soon-require-home-care-i-work-full-time-eligibility/770" for 65.21.232.254 at 2023-03-07 06:07:45 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"my-86-year-old-husband-may-soon-require-home-care-i-work-full-time-eligibility", "topic_id"=>"770"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.7ms | Allocations: 2626)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.0ms | Allocations: 3929)
+Completed 200 OK in 56ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 22976)
+start
+done
+Started GET "/t/neglect/708" for 65.21.232.254 at 2023-03-07 06:07:47 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"neglect", "topic_id"=>"708"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.6ms | Allocations: 2554)
+  Rendered layout layouts/crawler.html.erb (Duration: 8.9ms | Allocations: 3857)
+Completed 200 OK in 59ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 22668)
+Started GET "/t/nursing-home-declining-to-accept-power-of-attorney/733" for 65.21.232.254 at 2023-03-07 06:07:50 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"nursing-home-declining-to-accept-power-of-attorney", "topic_id"=>"733"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.7ms | Allocations: 2745)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.6ms | Allocations: 4048)
+Completed 200 OK in 64ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 21208)
+Started GET "/t/over-55-living/731" for 65.21.232.254 at 2023-03-07 06:07:53 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"over-55-living", "topic_id"=>"731"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.0ms | Allocations: 2412)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.8ms | Allocations: 3714)
+Completed 200 OK in 62ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 22335)
+Started GET "/t/parent-visas/712" for 65.21.232.254 at 2023-03-07 06:07:55 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"parent-visas", "topic_id"=>"712"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2739)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.8ms | Allocations: 4042)
+Completed 200 OK in 59ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 21224)
+Started GET "/t/patient-and-families-right-during-current-lockdown/706" for 65.21.232.254 at 2023-03-07 06:07:58 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"patient-and-families-right-during-current-lockdown", "topic_id"=>"706"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.3ms | Allocations: 2593)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.5ms | Allocations: 3896)
+Completed 200 OK in 62ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 22712)
+Started GET "/t/princple-family-home/713" for 65.21.232.254 at 2023-03-07 06:08:01 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"princple-family-home", "topic_id"=>"713"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.8ms | Allocations: 2665)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.1ms | Allocations: 3968)
+Completed 200 OK in 61ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 22789)
+Started GET "/t/protected-person-needing-to-sell-home/725" for 65.21.232.254 at 2023-03-07 06:08:03 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"protected-person-needing-to-sell-home", "topic_id"=>"725"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.8ms | Allocations: 2436)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.0ms | Allocations: 3739)
+Completed 200 OK in 58ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 20496)
+Started GET "/t/protected-person-query/711" for 65.21.232.254 at 2023-03-07 06:08:06 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"protected-person-query", "topic_id"=>"711"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.3ms | Allocations: 2895)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.7ms | Allocations: 4198)
+Completed 200 OK in 60ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 23417)
+Started GET "/t/rac/709" for 65.21.232.254 at 2023-03-07 06:08:08 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"rac", "topic_id"=>"709"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.2ms | Allocations: 2900)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.4ms | Allocations: 4203)
+Completed 200 OK in 56ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 21558)
+Started GET "/t/respite-eligibility/727" for 65.21.232.254 at 2023-03-07 06:08:11 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"respite-eligibility", "topic_id"=>"727"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.8ms | Allocations: 2418)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.0ms | Allocations: 3721)
+Completed 200 OK in 58ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 22336)
+Started GET "/t/respite-entitlement-for-category-3/728" for 65.21.232.254 at 2023-03-07 06:08:14 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"respite-entitlement-for-category-3", "topic_id"=>"728"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.0ms | Allocations: 2579)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.3ms | Allocations: 3881)
+Completed 200 OK in 59ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 22693)
+Started GET "/t/status-of-principle-place-of-residence-for-aged-pension-when-in-aged-care-home/707" for 65.21.232.254 at 2023-03-07 06:08:16 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"status-of-principle-place-of-residence-for-aged-pension-when-in-aged-care-home", "topic_id"=>"707"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 6.9ms | Allocations: 2516)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.1ms | Allocations: 3819)
+Completed 200 OK in 54ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 20577)
+Started GET "/t/what-exactly-is-a-secure-dementia-care-unit-restraints/720" for 65.21.232.254 at 2023-03-07 06:08:19 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"what-exactly-is-a-secure-dementia-care-unit-restraints", "topic_id"=>"720"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.0ms | Allocations: 2778)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.2ms | Allocations: 4081)
+Completed 200 OK in 60ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 23098)
+Started GET "/t/when-does-a-daily-accomodation-contribution-get-charged/714" for 65.21.232.254 at 2023-03-07 06:08:21 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"when-does-a-daily-accomodation-contribution-get-charged", "topic_id"=>"714"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 7.5ms | Allocations: 3212)
+  Rendered layout layouts/crawler.html.erb (Duration: 9.9ms | Allocations: 4515)
+Completed 200 OK in 57ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 22278)
+Started GET "/" for 128.14.134.134 at 2023-03-07 06:08:37 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/application (Duration: 14.4ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 18156)
+Completed 200 OK in 60ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 39787)
+start
+done
+start
+done
+Started GET "/" for 23.152.225.2 at 2023-03-07 06:14:30 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 15.0ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 18155)
+Completed 200 OK in 66ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 39919)
+Started GET "/posts.rss" for 23.152.225.2 at 2023-03-07 06:14:38 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 39.6ms | Allocations: 19496)
+Completed 200 OK in 73ms (Views: 40.5ms | ActiveRecord: 0.0ms | Allocations: 29215)
+Started GET "/more/contact" for 23.152.225.2 at 2023-03-07 06:14:41 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.4ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 4.8ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 23.152.225.2 at 2023-03-07 06:14:43 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 6.1ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/" for 92.119.177.20 at 2023-03-07 06:15:04 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 17.2ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 18156)
+Completed 200 OK in 66ms (Views: 27.6ms | ActiveRecord: 0.0ms | Allocations: 39786)
+Started GET "/posts.rss" for 92.119.177.20 at 2023-03-07 06:15:08 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 37.9ms | Allocations: 19488)
+Completed 200 OK in 65ms (Views: 38.8ms | ActiveRecord: 0.0ms | Allocations: 29191)
+Started GET "/more/contact" for 92.119.177.20 at 2023-03-07 06:15:10 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.7ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 92.119.177.20 at 2023-03-07 06:15:11 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.4ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/more/contact" for 92.119.177.20 at 2023-03-07 06:15:12 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.6ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 92.119.177.20 at 2023-03-07 06:15:13 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+start
+done
+done
+start
+start
+done
+done
+start
+done
+Started GET "/robots.txt" for 144.76.23.197 at 2023-03-07 06:19:46 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/" for 144.76.23.197 at 2023-03-07 06:19:48 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 15.9ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 19.3ms | Allocations: 15193)
+Completed 200 OK in 61ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 36958)
+start
+done
+start
+done
+Started GET "/" for 198.144.159.124 at 2023-03-07 06:22:54 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/application (Duration: 16.2ms | Allocations: 13713)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 18155)
+Completed 200 OK in 69ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 39920)
+Started GET "/posts.rss" for 198.144.159.124 at 2023-03-07 06:22:58 +0000
+Processing by PostsController#latest as RSS
+  Parameters: {"id"=>"latest_posts"}
+  Rendered posts/latest.rss.erb (Duration: 34.4ms | Allocations: 19500)
+Completed 200 OK in 61ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 29203)
+Started GET "/more/contact" for 198.144.159.124 at 2023-03-07 06:22:59 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.9ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 198.144.159.124 at 2023-03-07 06:23:01 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.6ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/more/contact" for 198.144.159.124 at 2023-03-07 06:23:02 +0000
+ActionController::RoutingError (No route matches [GET] "/more/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.7ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Started GET "/contact" for 198.144.159.124 at 2023-03-07 06:23:03 +0000
+ActionController::RoutingError (No route matches [GET] "/contact")
+config/initializers/100-quiet_logger.rb:20:in `call'
+config/initializers/100-silence_logger.rb:29:in `call'
+lib/middleware/enforce_hostname.rb:24:in `call'
+lib/middleware/request_tracker.rb:228:in `call'
+  Rendered exceptions/not_found.html.erb within layouts/no_ember (Duration: 0.5ms | Allocations: 205)
+  Rendered layout layouts/no_ember.html.erb (Duration: 5.5ms | Allocations: 1840)
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+start
+done
+Started GET "/" for 205.210.31.24 at 2023-03-07 06:27:25 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 14.6ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 18.2ms | Allocations: 15193)
+Completed 200 OK in 58ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 36958)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/robots.txt" for 66.249.64.253 at 2023-03-07 06:50:46 +0000
+Processing by RobotsTxtController#index as TEXT
+  Rendered robots_txt/index.erb (Duration: 0.5ms | Allocations: 68)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 675)
+Started GET "/t/understanding-advertised-room-cost/698" for 66.249.64.253 at 2023-03-07 06:50:46 +0000
+Processing by TopicsController#show as HTML
+  Parameters: {"slug"=>"understanding-advertised-room-cost", "topic_id"=>"698"}
+  Rendered topics/show.html.erb within layouts/crawler (Duration: 8.4ms | Allocations: 3563)
+  Rendered layout layouts/crawler.html.erb (Duration: 10.7ms | Allocations: 4894)
+Completed 200 OK in 97ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 35979)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done
+Started GET "/" for 170.64.152.77 at 2023-03-07 07:04:40 +0000
+Processing by ListController#latest as */*
+  Rendered list/list.erb within layouts/application (Duration: 14.6ms | Allocations: 13714)
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 23398)
+Completed 200 OK in 95ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 48084)
+start
+done
+start
+done
+start
+start
+done
+done
+start
+done
+start
+start
+done
+done
+start
+done
+start
+done
+Started GET "/about.json" for 54.185.78.20 at 2023-03-07 07:19:51 +0000
+Processing by AboutController#index as JSON
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 3267)
+Started GET "/site/basic-info.json" for 54.185.78.20 at 2023-03-07 07:19:51 +0000
+Processing by SiteController#basic_info as JSON
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 416)
+Started GET "/site/basic-info.json" for 54.185.78.20 at 2023-03-07 07:19:51 +0000
+Processing by SiteController#basic_info as JSON
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 415)
+Started GET "/" for 172.71.126.85 at 2023-03-07 07:20:07 +0000
+Processing by ListController#latest as HTML
+  Rendered list/list.erb within layouts/crawler (Duration: 16.9ms | Allocations: 13702)
+  Rendered layout layouts/crawler.html.erb (Duration: 20.7ms | Allocations: 15194)
+Completed 200 OK in 62ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 36960)
+start
+done
+start
+done
+start
+done
+Started GET "/" for 162.142.125.219 at 2023-03-07 07:31:18 +0000
+Processing by ListController#latest as */*
+Deprecation notice: `SiteSetting.enable_personal_messages` has been deprecated. Please use `SiteSetting.personal_message_enabled_groups` instead. (removal in Discourse 3.0) 
+At /var/www/discourse/lib/site_setting_extension.rb:199:in `public_send`
+  Rendered list/list.erb within layouts/crawler (Duration: 16.5ms | Allocations: 13701)
+  Rendered layout layouts/crawler.html.erb (Duration: 19.8ms | Allocations: 15193)
+Completed 200 OK in 94ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 47457)
+start
+done
+start
+done
+start
+done
+start
+done
+start
+done

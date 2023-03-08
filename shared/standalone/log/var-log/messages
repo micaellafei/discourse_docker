@@ -1,0 +1,44 @@
+Feb  6 09:48:15 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="55" x-info="https://www.rsyslog.com"] start
+Feb  6 10:21:20 forum logrotate: ALERT exited abnormally with [1]
+Feb  7 01:07:11 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="48" x-info="https://www.rsyslog.com"] start
+Feb  7 01:20:27 forum logrotate: ALERT exited abnormally with [1]
+Feb  8 06:31:08 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="50" x-info="https://www.rsyslog.com"] start
+Feb  8 06:45:18 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="50" x-info="https://www.rsyslog.com"] start
+Feb  9 07:44:51 forum logrotate: ALERT exited abnormally with [1]
+Feb 10 07:59:12 forum logrotate: ALERT exited abnormally with [1]
+Feb 11 07:44:00 forum logrotate: ALERT exited abnormally with [1]
+Feb 12 07:50:08 forum logrotate: ALERT exited abnormally with [1]
+Feb 13 07:53:53 forum logrotate: ALERT exited abnormally with [1]
+Feb 14 07:50:38 forum logrotate: ALERT exited abnormally with [1]
+Feb 15 07:53:19 forum logrotate: ALERT exited abnormally with [1]
+Feb 16 07:49:30 forum logrotate: ALERT exited abnormally with [1]
+Feb 17 07:53:23 forum logrotate: ALERT exited abnormally with [1]
+Feb 18 07:48:44 forum logrotate: ALERT exited abnormally with [1]
+Feb 19 07:51:46 forum logrotate: ALERT exited abnormally with [1]
+Feb 20 07:57:51 forum logrotate: ALERT exited abnormally with [1]
+Feb 21 07:44:17 forum logrotate: ALERT exited abnormally with [1]
+Feb 22 07:45:16 forum logrotate: ALERT exited abnormally with [1]
+Feb 23 01:14:13 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="5234" x-info="https://www.rsyslog.com"] start
+Feb 23 01:24:06 forum logrotate: ALERT exited abnormally with [1]
+Feb 23 05:39:45 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="5141" x-info="https://www.rsyslog.com"] start
+Feb 23 06:46:15 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="5141" x-info="https://www.rsyslog.com"] start
+Feb 23 07:30:19 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="2343" x-info="https://www.rsyslog.com"] start
+Feb 23 14:40:06 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="558" x-info="https://www.rsyslog.com"] start
+Feb 24 07:37:36 forum logrotate: ALERT exited abnormally with [1]
+Feb 25 07:52:23 forum logrotate: ALERT exited abnormally with [1]
+Feb 26 07:47:46 forum logrotate: ALERT exited abnormally with [1]
+Feb 27 07:50:11 forum logrotate: ALERT exited abnormally with [1]
+Feb 28 07:40:37 forum logrotate: ALERT exited abnormally with [1]
+Mar  1 00:19:33 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="558" x-info="https://www.rsyslog.com"] start
+Mar  1 00:36:36 forum logrotate: ALERT exited abnormally with [1]
+Mar  2 07:17:48 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="559" x-info="https://www.rsyslog.com"] start
+Mar  2 07:47:13 forum logrotate: ALERT exited abnormally with [1]
+Mar  2 07:56:03 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="553" x-info="https://www.rsyslog.com"] start
+Mar  3 04:26:40 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="558" x-info="https://www.rsyslog.com"] start
+Mar  3 04:45:21 forum logrotate: ALERT exited abnormally with [1]
+Mar  3 07:29:46 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="553" x-info="https://www.rsyslog.com"] start
+Mar  3 07:47:22 forum rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="551" x-info="https://www.rsyslog.com"] start
+Mar  4 07:48:41 forum logrotate: ALERT exited abnormally with [1]
+Mar  5 07:49:54 forum logrotate: ALERT exited abnormally with [1]
+Mar  6 08:01:28 forum logrotate: ALERT exited abnormally with [1]
+Mar  7 07:45:36 forum logrotate: ALERT exited abnormally with [1]
